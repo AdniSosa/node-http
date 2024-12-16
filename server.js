@@ -10,12 +10,12 @@ const server = http.createServer((req, res) => {
         <head>
             <meta charset="UTF-8">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <title>Shop Online ${data().title}</title>
+            <title>Shop Online ${data.title}</title>
         </head>
         <body>
-            <h1 style='color: orange'>${data().title}</h1>
-            <h2 style='color: red'>${data().subtitle}</h2>
-            <h3>${data().description}</h3>
+            <h1 style='color: orange'>${data.title}</h1>
+            <h2 style='color: red'>${data.subtitle}</h2>
+            <h3>${data.description}</h3>
         </body>
         </html>
         `)
